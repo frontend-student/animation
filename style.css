@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body,
+html {
+  height: 100%;
+  font-family: Arial, sans-serif;
+  width: 100%;
+  /* background-color: #111; */
+  color: #fff;
+}
+
+/* 
+#box{
+height: 100px;
+width: 100px ;
+background-color: teal;
+border-radius: 10px;
+animation: name duration timing-function delay iteration-count direction fill-mode;
+position: absolute;
+animation: anime 2s  ease-in-out  infinite alternate forwards;
+
+}
+
+
+@keyframes anime {
+    
+0%{
+    left: 0%;
+    top: 0%;
+}
+100%{
+  left:90%;
+    top: 0%;
+}
+50%{
+      top: 70%;
+      right: 20%;
+
+}
+
+75%{
+
+bottom: 30%
+;
+right: 100%;
+} 
+
+} */
+
+
+
+/* .red {
+width: 200px ;
+height: 200px;
+    background-color: red;
+}
+
+.red2 {
+width: 200px ;
+height: 200px;
+    background-color: rgb(187, 255, 0);
+}
+
+.red3 {
+width: 200px ;
+height: 200px;
+    background-color: rgb(38, 0, 255);
+} */
+
+
+/* nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2vw;
+  text-transform: capitalize;
+}
+
+nav div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+} */
+
+
+/* h1{
+position: relative;
+animation: rk 1.5s 0.1s infinite;
+}
+
+@keyframes rk {
+  
+  from{
+color: red;
+    opacity:0;
+      top:-50px;
+  }
+to{
+  color: blue;
+  opacity:1;
+    top:0;
+}
+} */
+
+
+
+.pare1{
+  height: 100%;
+  width: 100%;
+  background-color: teal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pare2{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(94, 128, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pare3{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(13, 0, 128);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.box{
+  height: 200px;
+  width: 200px;
+  background-color: aqua;
+}
+
+
+.pare3 h1{
+background-color: blue;
+position: relative;
+}
+.pare3 h2{
+  position: relative;
+  background-color: yellow;
+  color: black;
+}
+
+.pare4{
+  height: 100%;
+  width: 100%;
+overflow: hidden;
+
+}
+
+.pare4 h2{
+font-size: 40vw;
+color: #000;
+text-transform: uppercase;
+}
+
+
